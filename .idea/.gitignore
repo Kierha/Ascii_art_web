@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+<<<<<<< HEAD
+/../../../../../../../:\Users\Admin\Desktop\web\ascii-art-web\.idea/dataSources/
+=======
+/../../../../../../:\Users\Admin\Desktop\ascii-art-web\.idea/dataSources/
+>>>>>>> 06fbf32249ed209bc6cc226f22f3b4980d371b7b
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

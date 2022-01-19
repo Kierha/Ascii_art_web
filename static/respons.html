@@ -1,0 +1,62 @@
+{{define "result"}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+            <!-- Menu de navigation du site -->
+
+  <div class="navbar">
+    <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+    <a href="generascii.html"><i class="fa fa-fw fa-search"></i> Generateur ASCii-Art</a>
+    <a href="contact.html"><i class="fa fa-fw fa-contact"></i> Contact</a>
+    <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  </div>
+        <pre> {{.Value}} </pre>
+    </body>
+</html>
+
+<style>
+
+    h1 {
+      font-size: 30px;
+      text-decoration: bold;
+  
+    }
+  
+    body {
+  font-family: Arial, Helvetica, sans-serif;}
+  
+  
+    .navbar {
+      width: 100%;
+      background-color: #555;
+      overflow: auto;
+    }
+  
+    .navbar a {
+      float: left;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .navbar a:hover {
+      background-color: #000;
+    }
+  
+    .active {
+      background-color: #4CAF50;
+    }
+  
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+      }
+    }
+    </style>
+{{end}}
